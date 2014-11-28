@@ -3,7 +3,7 @@ Complex-network-analysis-of-Airport-network-data
 
 Analysis of complex network (global flight network data) using Python. 
 
-"globalflightnetwork" is a famous dataset to visualize the flight network. It states total number of flights from one country to another.
+"globalflightnetwork" by Visualizing.org is a famous dataset to visualize the flight network. (ref- http://www.visualizing.org/datasets/global-flights-network). It states total number of flights from one country to another.
 To analyze the international flight data, we used "countriesToCountries" data. It has total 3983 enteries. This data was cleaned using R script "clearing_data.R". Data thus generated was stored in file "airport_CnToCn_ajc.csv".
 
 Real_data.py reads the above data and measures the characterstic path length of the network. Characterstic path length is measured using "my_implementation.py" file which uses Dijkstra's algorithm to compute shortest path between two nodes. 
